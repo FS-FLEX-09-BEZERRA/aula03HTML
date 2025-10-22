@@ -1,0 +1,46 @@
+* {
+  border: none;
+  margin: 0; /* espaçamento externo */
+  padding: 0; /* espaçamento interno */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: #7B25AA;
+  --light-gray: #ECF0F1;
+  --dark-gray: #949E9F;
+}
+
+body{
+  background-color: var(--light-gray);
+}
+
+.div-login {
+  background-color: #4C087F;
+  color: #fff;
+}
+
+.div-login > a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 16%;
+  width: 100%;
+  padding: 2px 4px;
+}
+
+.div-cadastro {
+  background-color: #fff;
+}
+
+.div-cadastro > h2 {
+  color: var(--primary);
+}
+
+.div-cadastro > p {
+  color: var(--dark-gray);
+}
+
+.form-registro > button {
+  background-color: var(--primary);
+}
