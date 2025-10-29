@@ -4,6 +4,8 @@
   padding: 0; /* espaçamento interno */
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -16,17 +18,25 @@ body{
   background-color: var(--light-gray);
 }
 
+
 .div-login {
+  padding: 50px 0;
   background-color: #4C087F;
   color: #fff;
+  text-align: center;
+}
+
+.div-login > p {
+  margin-bottom: 16px;
 }
 
 .div-login > a {
   color: #fff;
   border: 1px solid #fff;
-  border-radius: 16%;
+  border-radius: 16px;
   width: 100%;
-  padding: 2px 4px;
+  padding: 4px 40px;
+  margin: 10px 0px;
 }
 
 .div-cadastro {
@@ -43,4 +53,16 @@ body{
 
 .form-registro > button {
   background-color: var(--primary);
+}
+
+.form-registro input {
+  background-color: #ecf0f1;
+  padding: 10px 3px;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
 }
